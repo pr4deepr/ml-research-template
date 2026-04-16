@@ -6,10 +6,33 @@ AI-assisted documentation and process framework for reproducible ML research.
 
 ## Getting Started
 
-1. Copy this template into your project directory
-2. Open your AI coding tool (Claude Code, Cursor, Copilot, etc.)
-3. Tell it: **"Read setup.md and help me set up this project"**
-4. Answer the questions it asks -- it will populate the template for you
+### 1. Get the template
+
+**Option A: Clone and start fresh**
+```bash
+git clone https://github.com/pr4deepr/ml-research-template.git my-project
+cd my-project
+rm -rf .git
+git init
+```
+
+**Option B: Download manually**
+
+Go to the [repository page](https://github.com/pr4deepr/ml-research-template), click **Code > Download ZIP**, and extract the contents into your project folder.
+
+### 2. Set up with your AI tool
+
+Open your project folder in your AI coding tool, then tell it: **"Read setup.md and help me set up this project"**
+
+**Claude Code (CLI):**
+```bash
+cd my-project
+claude
+```
+
+**Claude Code (Desktop app or VS Code / JetBrains extension):** Open the project folder, then start a new conversation.
+
+**Other tools (Cursor, Copilot, Windsurf, etc.):** Open the project folder in the editor -- the AI assistant will automatically pick up the template files.
 
 That's it. The AI reads your answers and fills in CLAUDE.md, methodology, experiment roadmap, and everything else. You review and adjust.
 
