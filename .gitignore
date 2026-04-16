@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Model checkpoints & artifacts
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.npy
+
+# Data (track CSVs, not raw data)
+data/*.h5
+data/*.hdf5
+data/*.tif
+data/*.tiff
+data/*.npy
+data/*.zarr
+
+# Experiment outputs (track logs and results, not large files)
+experiments/**/outputs/
+experiments/**/*.tif
+experiments/**/*.png
+
+# Environment
+.env
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# W&B / MLflow (if used alongside)
+wandb/
+mlruns/
+
+# AI tool config (local settings, not tracked)
+.claude/
+
+# Superpowers (local planning docs, not tracked)
+docs/superpowers/

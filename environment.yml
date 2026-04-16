@@ -1,0 +1,19 @@
+# Minimal environment -- customize for your project
+name: myproject
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - pytorch
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  # Add project-specific dependencies below:
+  # - torchvision
+  # - transformers
+  # - timm
+  # - einops
+  # - umap-learn
