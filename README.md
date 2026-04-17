@@ -100,14 +100,6 @@ The AI assistant will adjust the template based on your project type. Here's wha
 - **Skip:** manuscript/ sections on supervised baselines if not applicable
 - **Suggested first experiment:** train with default config, evaluate with linear probe vs random init
 
-### Generative Models (diffusion, GANs, VAEs)
-
-- **Metrics:** FID/IS + human eval, sample diversity metrics
-- **Workflow:** architecture search > training stability > quality eval > ablations
-- **Constraints emphasis:** cherry-picking warning (always show random samples), compute budget for sampling
-- **Relax:** "single primary metric" constraint -- generative quality is inherently multi-metric
-- **Suggested first experiment:** train baseline generator, compute FID on held-out set
-
 ### Fine-tuning / Transfer Learning (LLMs, foundation models)
 
 - **Metrics:** downstream task metrics, catastrophic forgetting checks
