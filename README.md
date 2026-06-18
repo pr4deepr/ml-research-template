@@ -2,7 +2,7 @@
 
 A structured scaffold of folders and documents that helps organize a Machine Learning project. This is NOT code, but gives you one tidy place to track your questions, experiments, results and decisions. 
 
-**Who it is for**: Reserachers running ML experiments towards a paper. It captures how research actually unfolds: a decision trail, with negative results logged as first-class citizens, a straight line from experiments to manuscript sections, and reproducibility habits which is a convention of one config and one log entry per run (written ideally by an AI assistant, not captured automatically), with requirements for baselines.
+**Who it is for**: Researchers running ML experiments towards a paper. It captures how research actually unfolds: a decision trail, with negative results logged as first-class citizens, a straight line from experiments to manuscript sections, and reproducibility habits which is a convention of one config and one log entry per run (written ideally by an AI assistant, not captured automatically), with requirements for baselines.
 
 **How to use**: Copy the template, answer a few setup questions in setup.md and keep the docs updated as project moves along with an AI assistant like Claude or Gemini.
 
