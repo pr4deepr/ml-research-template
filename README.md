@@ -6,7 +6,9 @@ A structured scaffold of folders and documents that helps organize a Machine Lea
 
 **Who it is for**: Reserachers running ML experiments towards a paper. It captures how research actually unfolds: a decision trail, with negative results logged as first-class citizens, a straight line from experiments to manuscript sections, and reproducibility habits which is a convention of one config and one log entry per run (written ideally by an AI assistant, not captured automatically), with requirements for baselines.
 
-![overview_image](assets/overview.png)
+<div align="center">
+    <img src="assets/overview.png" width="70%">
+</div>
 
 **The Difference**: Most ML tools (Weights & Biases, DVC, MLflow) capture metrics about what you ran, but require some sort of server, account or frameworkse. But, they do not have a home for why you made each decision. 
 
