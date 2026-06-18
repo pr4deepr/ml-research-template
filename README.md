@@ -1,10 +1,28 @@
 # ML Research Project Template
 
-AI-assisted documentation and process framework for reproducible ML research.
+A structured scaffold of folders and documents that helps organize a Machine Learning project. This is NOT code, but gives yo one tidy place to track your questions, experiments, results and decisions. 
+
+**How to use**: Copy the template, answer a few setup questions in setup.md and keep the docs updated as project moves along with an AI assistant like Claude or Gemini.
+
+**Who it is for**: Reserachers running ML experiments towards a paper. It captures how research actually unfolds: a decision trail, with negative results logged as first-class citizens, a straight line from experiments to manuscript sections, and reproducibility habits which is a convention of one config and one log entry per run (written ideally by an AI assistant, not captured automatically), with requirements for baselines.
 
 ![overview_image](assets/overview.png)
 
+**The Difference**: Most ML tools (Weights & Biases, DVC, MLflow) capture metrics about what you ran, but require some sort of server, account or frameworkse. But, they do not have a home for why you made each decision. 
+
+The template here is just plain markdown - no setup required!. The whole job is to capture the part lot of other tools leave out:
+- your question
+- what you tried
+- what happened
+- why you went the way you did
+
+These are recorded as you work, Claude or any AI assistant fills configs, logs, deicisions following conventions in the template. This means it works with any code, language, and needs zero infrastructure!
+
+Importantly, this does not replace other ML tools, it sits alongside them. Metrics can live in W*B or MLFlow, the reasoning lives here!
+
+
 ## Getting Started
+
 
 ### 1. Get the template
 
